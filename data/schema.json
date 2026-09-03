@@ -1,0 +1,28 @@
+{
+  "item": {
+    "id": "number",
+    "name": "string",
+    "equipment": {
+      "slot": "string",
+      "attack_speed": "number",
+      "bonuses": "object"
+    },
+    "requirements": "object",
+    "special_effects": "array"
+  },
+  "monster": {
+    "id": "number",
+    "name": "string",
+    "stats": "object",
+    "defences": "object",
+    "weaknesses": "object",
+    "mechanics": "array"
+  },
+  "loadout": {
+    "equipment": "array",
+    "inventory": "array",
+    "prayers": "array",
+    "switches": "array",
+    "score": "number"
+  }
+}
